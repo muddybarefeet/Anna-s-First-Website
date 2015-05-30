@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Our Adventure</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+   <script src="jQuery/jquery-1.11.2.js"></script>
+	  	
+		<!-- header -->
+
+	  	<header>
+		  	<h1><a href="home.html">Our<br>Adventure</a></h1>
+
+		  	<div class="nav">
+		  		<ul>
+		  			<li><a href="location.html">Locations</a></li><!--
+	          --><li><a href="schedule.html">Schedule</a></li><!--
+	          --><li><a href="gear.html">Gear</a></li><!--
+	          --><li><a href="home.html">Home</a></li>
+		  		</ul>
+	  		</div>
+		</header>
+	  		
+	  	<div class="line"></div>
+	
+	<!-- main -->
+	
+		
+		<section class="introduction">
+			<h2>Locations</h2>
+			<p>Here are the links and addresses to the places we shall be staying in Zurich, Mittelberg, up on the glacier and back down in Imst with some fancy jQuery added!</p>
+		</section>
+
+		<ul class="addresses">	
+			<address class="hostels col-1-3">
+				<h3><a href="http://www.booking.com/hotel/ch/casa-heinrich-guesthouse.en-gb.html?aid=311076;label=casa-heinrich-guesthouse-eXYnx0nd5wPhHQgOSVVlsgS64272800700%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t2%3Aneg;sid=99cd68618c663fea380e2299ae921e8d;dcid=4;dist=0;srfid=6166832786cd3acb384dac320cd88eb82ba241b4X1;type=total;ucfs=1&Casa Heinrich Studios">Casa Heinrich Studios</a></h3>
+				<p>Heinrichstrasse 68<br>5.Gewerbeschule - Escher Wyss<br>Zürich, 8005,<br>Switzerland</p>
+			</address>
+
+			<address class="hostels col-1-3">
+				<h3><a href="http://www.berghof-steinbock.at/">Berghotel Steinbock</a></h3>
+				<p>Mittelberg 49,<br>6481 St. Leonhard,<br>Austria</p>
+			</address>
+
+			<address class="hostels col-1-3">
+				<h3><a href="http://www.braunschweiger-huette.at/">Braunschweiger Hütte</a></h3>
+				<p>Imst,<br>6481,<br>Austria</p>
+			</address>
+
+			<section class="hostels col-1-3 centre">
+				<img src="img/tumblr_kvt1keJxnK1qzjnmwo1_500.jpg" alt="post-boxes"></img>
+			</section>
+
+			<address class="hostels col-1-3">
+				<h3><a href="http://www.romedihof.at/romedi-hof-englisch.htm">Romediof Backpackers Hostel</a></h3>
+				<p>Brennbichl 41,<br>6463 Karrösten / Imst,<br>Austria</p>
+			</address>
+
+			<section class="hostels col-1-3 centre">
+				<img src="img/tumblr_kvt1keJxnK1qzjnmwo1_500.jpg" alt="post-boxes"></img>
+			</section>
+		</ul>	
+
+		<script>
+			$(document).ready(function(){
+				$(".hostels").on('mouseenter', function(){
+					$(this).addClass('highlighted');
+				});
+				$(".hostels").on('mouseleave', function(){
+					$(this).removeClass('highlighted');
+				});
+			});
+		</script>
+
+	<!-- footer -->
+
+	<footer class="footer">
+		<p>♥ Hand made by Anna!</p>
+
+		<div class="nav bottom-nav">
+		  		<ul>
+		  		<li><a href="location.html">Locations</a></li><!--
+	          --><li><a href="schedule.html">Schedule</a></li><!--
+	          --><li><a href="gear.html">Gear</a></li><!--
+	          --><li><a href="home.html">Home</a></li>
+		  		</ul>
+	  		</div>
+
+	</footer>
+
+  </body>
+
+</html>

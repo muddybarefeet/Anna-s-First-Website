@@ -1,0 +1,350 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	font-family: 'Coming Soon', cursive;
+  min-width: 960px;
+}
+
+a:hover {
+  color: #FF9900;
+  font-weight: bold;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+h1 a {
+	float: left;
+  color:#000000;
+  font-size: 30px;
+}
+
+.nav ul li {
+  float: right;
+  margin-top: 50px;
+  display: inline-block;
+  margin: 40px 15px 0 10px;
+}
+
+a {
+	text-decoration: none;
+  color: #000000;
+}
+
+.line {
+    border-bottom:1px solid #29293D;
+    clear: both;
+    padding-top: 10px;
+}
+
+/*
+  ========================================
+  Body
+  ========================================
+*/
+
+
+.introduction {
+	clear: both;
+	padding-top: 10px;
+	display: inline-block;
+  text-align: center;
+  min-width: 960px;
+  margin-bottom: 20px; 
+}
+
+p {
+	margin-top: 5px;
+}
+
+h4 {
+	margin-bottom: 10px;
+}
+
+
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid {
+  width: 100%;
+  text-align: center;
+}
+
+.col-1-3,
+.col-2-3 {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.col-1-3 {
+  width: 31%;
+}
+.col-2-3 {
+  width: 62%;
+}
+
+.row {
+  padding-top:40px;
+  margin-top: 30px;
+}
+
+/*
+  ========================================
+  table
+  ========================================
+*/
+
+tr {
+  margin-left: 0;
+}
+
+.space {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.table-headings {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+table tr, table td, table th {
+  padding: 15px;
+}
+
+.table-headings th, .table-headings td  {
+  padding-bottom: 0;
+  margin-left: 0;
+}
+
+table {
+  margin-bottom: 30px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+table,
+th,
+td {
+  border: 1.5px solid #ADC2D6;
+}
+
+
+/*
+  ========================================
+  Gear
+  ========================================
+*/
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.gear-pic {
+  border: 1px solid #000000;
+  margin-top: 10px;
+  padding-top: 15px;
+  box-shadow: 2px 2px grey;
+  margin-bottom: 30px;
+}
+
+.gear-position {
+  margin-top: 5%;
+  margin-left: 5px;
+}
+
+dt:first-child {
+  border-top: 1px solid #000000;
+}
+
+.gear-info {
+  padding: 2px;
+  font-size: 130%;
+  text-align: left;
+  list-style: none;
+  line-height: 30px;
+  padding-left: 5px;
+
+}
+
+dt, dd{
+  border: 1px solid #000000;
+  padding-left: 5px;
+  border-top: #ffffff;
+}
+
+dd {
+  line-height: 30px;
+  background: #ADC2D6;
+  color: #000000;
+}
+
+
+
+/*
+  ========================================
+  Location
+  ========================================
+*/
+
+.addresses {
+  margin: 20px 20px;
+}
+
+.hostels {
+  border:1px solid #cecfd5;
+  padding: 5px;
+  margin: 15px 5px;
+  box-shadow: 5px 5px 5px #333333;
+  text-align: left;
+  min-height: 190px;
+}
+
+.hostels h3 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.hostels img {
+  width: 215px;
+  position: relative;
+  top:5px;
+
+}
+
+.centre {
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+	
+footer {
+  border-top: 1px solid #29293D;
+  margin-top: 10px;
+  min-width: 960px;
+  clear: both;
+  margin-bottom: 60px;
+}
+
+.footer p {
+  clear: both;
+  float: left;
+  margin-top: 10px;
+}
+
+.bottom-nav ul li {
+  margin: 10px 15px 0 10px;
+
+}
+
+
+/*
+  ========================================
+  jQuery
+  ========================================
+*/
+
+.highlighted, .highlighted a, .highlighted img  {
+  background: #ADC2D6;
+  color: #CC6600;
+  box-shadow: none;
+  border: 1px solid #000000;
+}
+
+.highlighted a {
+  border: none;
+}
+
+
+.hide {
+  display: none;
+}
+
+
